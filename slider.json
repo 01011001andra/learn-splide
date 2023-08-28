@@ -1,0 +1,37 @@
+[
+  {
+    "src": "https://swiperjs.com/demos/images/nature-1.jpg",
+    "title": "Lanskap Indah",
+    "description": "Pemandangan alam yang menakjubkan di tengah pegunungan."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-3.jpg",
+    "title": "Keindahan Hutan",
+    "description": "Suasana damai di dalam hutan yang lebat."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-4.jpg",
+    "title": "Pantai Berpasir Putih",
+    "description": "Pantai tropis dengan pasir putih dan air biru jernih."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-5.jpg",
+    "title": "Sinar Matahari Terbenam",
+    "description": "Warna-warni langit saat matahari terbenam di cakrawala."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-6.jpg",
+    "title": "Air Terjun Megah",
+    "description": "Air terjun tinggi dengan air yang jatuh dengan indah."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-7.jpg",
+    "title": "Pegunungan Hijau",
+    "description": "Pegunungan yang ditutupi oleh padang rumput hijau."
+  },
+  {
+    "src": "https://swiperjs.com/demos/images/nature-8.jpg",
+    "title": "Lautan yang Tenang",
+    "description": "Lautan dengan air yang tenang dan biru cerah."
+  }
+]
