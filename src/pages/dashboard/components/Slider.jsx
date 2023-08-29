@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import "./styles.css";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import axios from "axios";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Slider() {
   const [index, setIndex] = useState(0);
@@ -25,13 +27,32 @@ export default function Slider() {
   function handleChange(e) {
     setIndex(e.activeIndex);
   }
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="flex lg:flex-row flex-col w-full items-center justify-center">
-      <div className="w-1/2 hidden lg:flex lg:gap-20 items-center flex-col h-full">
+    <div className="flex max-w-7xl mx-auto lg:flex-row flex-col w-full items-center justify-center">
+      <div
+        className="w-1/2 hidden lg:flex lg:gap-20 items-center flex-col h-full"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
         <img src={images[index]?.src} alt="a" className="w-52" />
         <h1>{images[index]?.description}</h1>
         <button className="btn btn-primary">OPEN</button>
       </div>
+      <button
+        className="px-2 text-4xl font-bold"
+        onClick={() => {
+          const swiper = document.querySelector(".mySwiper").swiper;
+          swiper.slideNext();
+        }}
+      >
+        TEKAN INI
+      </button>
       <div className="w-full lg:w-1/2 h-full">
         <Swiper
           effect={"coverflow"}
