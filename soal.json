@@ -1,0 +1,52 @@
+{
+  "soal1": {
+    "pertanyaan": "Apa singkatan dari HTML?",
+    "pilihan": {
+      "a": "HYML",
+      "b": "HMTL",
+      "c": "HTML",
+      "d": "HTLM"
+    },
+    "jawaban": "c"
+  },
+  "soal2": {
+    "pertanyaan": "Apa fungsi utama CSS dalam pengembangan web?",
+    "pilihan": {
+      "a": "Menentukan struktur halaman web",
+      "b": "Menambahkan interaktivitas ke halaman web",
+      "c": "Mengatur tampilan dan gaya halaman web",
+      "d": "Menangani data pada halaman web"
+    },
+    "jawaban": "c"
+  },
+  "soal3": {
+    "pertanyaan": "Mana yang bukan termasuk jenis data primitif dalam JavaScript?",
+    "pilihan": {
+      "a": "String",
+      "b": "Boolean",
+      "c": "Object",
+      "d": "Number"
+    },
+    "jawaban": "c"
+  },
+  "soal4": {
+    "pertanyaan": "Apa peran utama JavaScript dalam pengembangan web?",
+    "pilihan": {
+      "a": "Mengatur tampilan dan gaya halaman web",
+      "b": "Mengelola data pada server",
+      "c": "Membuat halaman web interaktif dan dinamis",
+      "d": "Memvalidasi formulir"
+    },
+    "jawaban": "c"
+  },
+  "soal5": {
+    "pertanyaan": "Apa singkatan dari API?",
+    "pilihan": {
+      "a": "Application Programming Interface",
+      "b": "Advanced Programming Interface",
+      "c": "Automated Programming Interface",
+      "d": "Application Process Interface"
+    },
+    "jawaban": "a"
+  }
+}
