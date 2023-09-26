@@ -23,11 +23,9 @@ const PreTest = () => {
     // Inkremenkan currentSoal di sini jika perlu
     if (currentSoal < questions.length - 1) {
       setCurrentSoal((prev) => prev + 1);
-      setSelectedValue({ ...selectedValue, currentSoal: selectedValue });
+      setSelectedValue({ answer: selectedValue });
     }
   };
-
-  console.log(selectedValue);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
